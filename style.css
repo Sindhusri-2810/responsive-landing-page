@@ -1,0 +1,72 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1000;
+}
+
+/* Menu */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+/* Hover Effect */
+.nav-menu a:hover {
+    color: yellow;
+}
+
+/* Navbar style on scroll */
+.scrolled {
+    background-color: black;
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+/* Section Colors */
+#home {
+    background-color: #3498db;
+}
+
+#about {
+    background-color: #2ecc71;
+}
+
+#services {
+    background-color: #e67e22;
+}
+
+#contact {
+    background-color: #9b59b6;
+}
